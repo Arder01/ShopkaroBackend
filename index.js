@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://shopkaro-frontend-tau.vercel.app',
   credentials: true
 }))
 
